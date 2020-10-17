@@ -572,7 +572,7 @@ class ManualActivity : BaseActivity(), SurfaceHolder.Callback, View.OnClickListe
         // Disable picture review
         mPictureReviewTime = mAutoReviewControl!!.pictureReviewTime
         mAutoReviewControl!!.pictureReviewTime = 0
-        mVGrid!!.setVideoRect(displayManager.displayedVideoRect)
+        mVGrid!!.setVideoRect(displayManager?.displayedVideoRect)
 
         //log(String.format("getSavingBatteryMode %s\n", getDisplayManager().getSavingBatteryMode()));
         //log(String.format("getScreenGainControlType %s\n", getDisplayManager().getScreenGainControlType()));

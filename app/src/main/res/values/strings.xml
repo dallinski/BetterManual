@@ -1,3 +1,15 @@
 <resources>
-    <string name="app_name">BetterManual</string>
+    <string name="app_name">BetterManualDallin</string>
+    <string name="no_delay">No delay</string>
+    <string name="one_second">1 second</string>
+    <string name="variable_seconds">%d seconds</string>
+    <string name="no_picture_limit">No picture limit</string>
+    <string name="variable_pictures">%d pictures</string>
+    <string name="starting_in_variable">Starting in %d...</string>
+    <string name="timelapse_finished">Timelapse finished</string>
+    <string name="package_name">package_name</string>
+    <string name="class_name">class_name</string>
+    <string name="pullingback_key">pullingback_key</string>
+    <string name="resume_key">resume_key</string>
+    <string name="error_starting_preview">Error starting preview!</string>
 </resources>
